@@ -1,7 +1,0 @@
-*.dart linguist-language=Dart
-*.dart linguist-detectable=true
-*.xml  linguist-detectable=false
-*.java  linguist-detectable=false
-*.c linguist-detectable=false
-*.cmake linguist-detectable=false
-*.html linguist-detectable=false
