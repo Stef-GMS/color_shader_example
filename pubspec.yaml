@@ -1,0 +1,31 @@
+name: color_shader_example
+description: "Flame example from Flame, aka BlueFire, Discord conversation: https://discord.com/channels/509714518008528896/1152656562310086818"
+
+publish_to: 'none'
+
+version: 0.1.0
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flame: ^1.25.0
+
+dev_dependencies:
+  flame_test: ^1.18.0
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/audio/
+    - assets/images/
+
+  shaders:
+    - assets/shaders/my_shader.frag
